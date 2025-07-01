@@ -117,7 +117,3 @@ docker exec -it broker kafka-run-class kafka.tools.GetOffsetShell \
 
 ---
 
-## 🧐 Author
-
-Bilal Kaya – for educational and development use.  
-Confluent Platform: [https://docs.confluent.io/](https://docs.confluent.io/)
