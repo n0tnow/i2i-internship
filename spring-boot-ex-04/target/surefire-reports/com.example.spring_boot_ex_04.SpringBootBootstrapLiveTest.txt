@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.spring_boot_ex_04.SpringBootBootstrapLiveTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 8.501 s -- in com.example.spring_boot_ex_04.SpringBootBootstrapLiveTest
