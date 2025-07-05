@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testautomation.tests.LoginTests" time="93.404" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\bkaya\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\target\test-classes;C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\target\classes;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\bkaya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\bkaya\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bkaya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bkaya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bkaya\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\bkaya\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\bkaya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\bkaya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bkaya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bkaya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\bkaya\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\bkaya\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\bkaya\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\bkaya\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\bkaya\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\tools\jdk-21.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\bkaya\AppData\Local\Temp\surefire13821231359151873402\surefirebooter-20250705191850832_3.jar C:\Users\bkaya\AppData\Local\Temp\surefire13821231359151873402 2025-07-05T19-18-50_718-jvmRun1 surefire-20250705191850832_1tmp surefire_0-20250705191850832_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="LoginTests#testSuccessfulLogin"/>
+    <property name="surefire.test.class.path" value="C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\target\test-classes;C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\target\classes;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\bkaya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\bkaya\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bkaya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bkaya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bkaya\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\bkaya\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\bkaya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\bkaya\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\bkaya\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\bkaya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\bkaya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bkaya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bkaya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\bkaya\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\bkaya\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\bkaya\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\bkaya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\bkaya\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\bkaya\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\bkaya\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\bkaya\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\bkaya\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\bkaya\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bkaya"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\tools\jdk-21.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bkaya\AppData\Local\Temp\surefire13821231359151873402\surefirebooter-20250705191850832_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="bkaya"/>
+    <property name="stdout.encoding" value="Cp1254"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\bkaya\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\bkaya\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\tools\jdk-21.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\bkaya\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bkaya\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Soroban;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Users\bkaya\.cargo\bin;C:\Users\bkaya\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\bkaya\AppData\Local\Programs\Python\Python312;C:\Users\bkaya\AppData\Local\Microsoft\WindowsApps;C:\Users\bkaya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bkaya\AppData\Local\GitHubDesktop\bin;C:\Users\bkaya\AppData\Roaming\npm;C:\php-8.3.7;C:\Users\bkaya\.dotnet\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ffmpeg-7.1.1-essentials_build\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\Docker\Docker\resources\bin;C:\tools\apache-maven-3.9.10\apache-maven-3.9.10\bin;C:\tools\jdk-21.0.7\bin;C:\Users\bkaya\.cargo\bin;C:\Users\bkaya\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\bkaya\AppData\Local\Programs\Python\Python312;C:\Users\bkaya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\bkaya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bkaya\AppData\Local\GitHubDesktop\bin;C:\Users\bkaya\AppData\Roaming\npm;C:\php-8.3.7;C:\Users\bkaya\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\bkaya\AppData\Local\Programs\Ollama;C:\Users\bkaya\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\bkaya\.foundry\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSuccessfulLogin" classname="com.testautomation.tests.LoginTests" time="88.2">
+    <system-out><![CDATA[
+============================================================
+🚀 TEST SETUP BAŞLADI
+============================================================
+📖 Konfigürasyon dosyası yükleniyor...
+✅ Konfigürasyon başarıyla yüklendi: src/main/resources/config.properties
+📋 Yüklenen ayarlar:
+   🌐 Base URL: https://www.trendyol.com
+   📧 Email: b.kaya.1@icloud.com
+   🌍 Browser: chrome
+   ⏱️ Implicit Wait: 4 saniye
+🌐 Browser başlatılıyor: chrome
+✅ chrome WebDriver başarıyla başlatıldı
+⚙️ Browser ayarları yapılıyor...
+   📺 Pencere maksimize edildi
+   ⏱️ Implicit wait: 5 saniye
+   📄 Page load timeout: 15 saniye
+✅ Browser ayarları tamamlandı
+🔗 Ana sayfaya gidiliyor: https://www.trendyol.com
+✅ Sayfa başarıyla yüklendi
+📄 Sayfa başlığı: En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da
+✅ Setup başarıyla tamamlandı!
+============================================================
+
+================================================================================
+🚀 TEST BAŞLADI: testSuccessfulLogin
+📝 AÇIKLAMA: Geçerli email ve şifre ile TRENDYOL'a başarılı giriş testi
+⏰ BAŞLAMA ZAMANı: 05/07/2025 19:18:57
+================================================================================
+📋 ADIM 1: LoginPage ve HomePage nesneleri oluşturuluyor
+🔐 Güncel TRENDYOL LoginPage sınıfı başlatıldı (2025)
+⏰ WebDriverWait süresi: 15 saniye (HIZ OPTİMİZE)
+🚀 Basit header button sistemi kullanılıyor (dropdown yok)
+🎯 Spesifik ID'ler: login-email, login-password
+🏠 TRENDYOL HomePage sınıfı başlatıldı (2025)
+⏰ WebDriverWait süresi: 15 saniye (HIZ OPTİMİZE)
+📸 Screenshot başarıyla alındı:
+   📁 Dosya: testSuccessfulLogin_Start_INFO_20250705_191857.png
+   📂 Konum: C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\screenshots\testSuccessfulLogin_Start_INFO_20250705_191857.png
+📋 ADIM 2: Konfigürasyon dosyasından test bilgileri alınıyor
+📧 Test Email: b.kaya.1@icloud.com
+🔒 Test Password: *********
+📋 ADIM 3: Ana sayfanın yüklendiği kontrol ediliyor
+🔍 TRENDYOL ana sayfası yükleme kontrolü...
+   ✅ URL doğru: https://www.trendyol.com/
+   📊 Sayfa durumu: complete
+   📄 Sayfa başlığı: En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da
+   🏗️ Body elementi: Var
+✅ TRENDYOL ana sayfası başarıyla yüklendi
+   🌐 Doğru URL: true
+   📄 Sayfa yüklendi: true
+🔄 Pop-up'lar kontrol ediliyor...
+🔄 Trendyol pop-up'ları kontrol ediliyor ve kapatılıyor...
+✅ Cookie pop-up'ı 'Kabul Et' ile kapatıldı
+✅ Trendyol pop-up'ları başarıyla kapatıldı
+✅ Ana sayfa başarıyla yüklendi
+📋 ADIM 4: Login işlemi başlatılıyor
+
+🔐 TRENDYOL GELİŞMİŞ LOGIN İŞLEMİ BAŞLADI
+👤 Email: b.kaya.1@icloud.com
+🕒 Timestamp: 2025-07-05T19:19:00.129200500
+
+📍 ADIM 1: Login sayfasına yönlendirme
+🔄 TRENDYOL Login sayfasına yönlendirme işlemi başlıyor...
+📍 ADIM 1: TRENDYOL 'Giriş Yap' butonuna tıklanıyor...
+🔄 TRENDYOL login butonuna tıklanıyor...
+🔍 TRENDYOL 'Giriş Yap' butonu aranıyor (Direkt header'da)...
+   ❌ Giriş Yap Direct Button ile bulunamadı
+   ❌ Giriş Yap Link Button ile bulunamadı
+   ❌ Giriş Yap Button ile bulunamadı
+   ❌ Login Link ile bulunamadı
+   ❌ Login Button By Class ile bulunamadı
+   ❌ Login Button By Test ID ile bulunamadı
+   ✅ Header Login Area ile bulundu
+✅ TRENDYOL login butonuna normal tıklama ile başarıyla tıklandı
+⏳ Login sayfasına yönlendirme bekleniyor...
+🔗 Yönlendirme sonrası URL: https://www.trendyol.com/giris?cb=/hesabim/favoriler
+🔗 Mevcut URL: https://www.trendyol.com/giris?cb=/hesabim/favoriler
+📍 TRENDYOL Login sayfasında mıyız? ✅ Evet
+✅ TRENDYOL LOGIN SAYFASINA BAŞARIYLA YÖNLENDİRİLDİ!
+📄 Sayfa başlığı: 
+
+📍 ADIM 2: Email girişi
+📧 TRENDYOL Email girişi yapılıyor: b.kaya.1@icloud.com
+🔍 TRENDYOL Email input alanı aranıyor...
+   ✅ TRENDYOL Email ID='login-email' ile bulundu
+✅ Email başarıyla girildi: b.kaya.1@icloud.com
+📋 Alanda görünen değer: b.kaya.1@icloud.com
+
+📍 ADIM 3: Şifre girişi
+🔒 TRENDYOL Şifre girişi yapılıyor...
+🔍 TRENDYOL Password input alanı aranıyor...
+   ❌ TRENDYOL Password ID bulunamadı: no such element: Unable to locate element: {"method":"css selector","selector":"#login\-password"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93bd13addab0b4aff31542f8a91e226c, findElement {using=id, value=login-password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\bkaya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54847/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93bd13addab0b4aff31542f8a91e226c
+   ❌ Password By Name ile bulunamadı
+   ✅ Password By Type ile bulundu
+✅ Şifre başarıyla girildi: *********
+📋 Alanda görünen değer uzunluğu: 9
+
+📍 ADIM 4: Login butonuna tıklama
+🔘 Login butonuna tıklanıyor...
+🔍 Submit button aranıyor...
+   ✅ Submit By Type ile bulundu
+✅ Login butonuna tıklandı
+
+✅ TRENDYOL LOGIN İŞLEMİ TAMAMLANDI!
+🔗 Son URL: https://www.trendyol.com/hesabim/favoriler?from=login
+⏳ 2 saniye beklendi
+📸 Screenshot başarıyla alındı:
+   📁 Dosya: testSuccessfulLogin_AfterLogin_INFO_20250705_191949.png
+   📂 Konum: C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\screenshots\testSuccessfulLogin_AfterLogin_INFO_20250705_191949.png
+📋 ADIM 5: Login başarısı kontrol ediliyor
+🔍 Login durumu kontrol ediliyor...
+   ❌ Çıkış linki bulunamadı
+   ❌ Kullanıcı menüsü bulunamadı
+   ❌ Kullanıcı adı bulunamadı
+   ✅ 'Giriş Yap' linki görünmüyor (bu iyi)
+📊 Login durum analizi:
+   🚪 Çıkış linki var: false
+   👤 Kullanıcı menüsü var: false
+   📝 Kullanıcı adı var: false
+   🔐 Giriş linki yok: true
+🎯 SONUÇ: ✅ GİRİŞ BAŞARILI
+✅ LOGIN BAŞARILI - Kullanıcı giriş yapmış
+📄 Sayfa başlığı: Online Alışveriş Sitesi, Türkiye’nin Trend Yolu | Trendyol
+👤 Giriş yapan kullanıcı: Bilinmiyor
+📄 Sayfa başlığı: Online Alışveriş Sitesi, Türkiye’nin Trend Yolu | Trendyol
+📸 Screenshot başarıyla alındı:
+   📁 Dosya: testSuccessfulLogin_SUCCESS_20250705_192025.png
+   📂 Konum: C:\Users\bkaya\OneDrive\Masaüstü\Desktop\i2i-projeler\TESTAUT-EX-01\screenshots\testSuccessfulLogin_SUCCESS_20250705_192025.png
+
+--------------------------------------------------------------------------------
+🏁 TEST BİTTİ: testSuccessfulLogin
+📊 SONUÇ: ✅ BAŞARILI
+💬 MESAJ: Login başarılı! Kullanıcı: b.kaya.1@icloud.com
+⏰ BİTİŞ ZAMANı: 05/07/2025 19:20:25
+--------------------------------------------------------------------------------
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tem 05, 2025 7:18:54 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Tem 05, 2025 7:18:54 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.122. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+❌ Kullanıcı adı okunamadı: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@data-test-id='header-user-name']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93bd13addab0b4aff31542f8a91e226c, findElement {using=xpath, value=//span[@data-test-id='header-user-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\bkaya\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54847/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93bd13addab0b4aff31542f8a91e226c
+]]></system-err>
+  </testcase>
+</testsuite>
