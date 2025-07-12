@@ -90,14 +90,14 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('HATA: ' || SQLCODE || ' - ' || SQLERRM);
 END;
 ```
-ornek 1
+Örnek 1
 ```
 BEGIN
     DBMS_OUTPUT.PUT_LINE('=== Test 1 ===');
     print_string_formatted('acbbcadefghkkhgfed');
 END;
 ```
-ornek 2
+Örnek 2
 ```
 BEGIN
     DBMS_OUTPUT.PUT_LINE('=== Test 2 (Optimized) ===');
@@ -105,3 +105,9 @@ BEGIN
 END;
 
 ```
+
+Çıktılar
+
+<img width="460" height="341" alt="image" src="https://github.com/user-attachments/assets/4ede2e23-1e43-42ec-b224-3fcb95fe7b09" />
+
+<img width="460" height="341" alt="image" src="https://github.com/user-attachments/assets/af2f2558-fc78-4913-877d-8bf13e5e7500" />
